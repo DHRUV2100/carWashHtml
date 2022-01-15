@@ -11,7 +11,7 @@ function validateLogin()
   var pass=document.querySelector("#pass");
 if((userName.value=="DHRUV" && pass.value=="123456") || (userName.value=="DIYA" && pass.value=="NOOB")){
     alert("YOU HAVE SUCCESSFULLY LOGGED IN!!");
-    window.location.href="index.html";
+    window.location.href="success.html";
   }
   else {
     model.style.cssText="display:block;";
